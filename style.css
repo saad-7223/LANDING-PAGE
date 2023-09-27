@@ -100,13 +100,13 @@ button{
     height: 350px;
     flex: 1;
     padding: 40px 20px ;
-    background: url(images/Atlantis.webp) no-repeat;
+    background: url("images/Atlantis.webp") no-repeat;
     background-size: cover;
     background-position: center;
 }
 .head{
     border: 2px solid rgba(255, 255, 255, .5);
-    background-image: url(/images/sun_water.avif);
+    background-image: url("/images/sun_water.avif");
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
@@ -198,7 +198,7 @@ button{
 
 /* FIFTH PORTION START  */
 .register{
-    background: url(./images/sun_water.avif) no-repeat;
+    background: url("./images/sun_water.avif") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
